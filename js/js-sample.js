@@ -94,6 +94,14 @@ function myFunction() {
 }
 </script>
 
+//Debuging
+<script>
+x = 7;
+y = 8;
+z = a + b;
+console.log(c);
+</script>
+
 
 </body>
 </html>
