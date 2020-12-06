@@ -1,4 +1,4 @@
-
+//for loops
 <p id="lang"></p>
 
 <script>
@@ -10,3 +10,19 @@ for (i = 0; i < lang.length; i++) {
 }
 document.getElementById("lang").innerHTML = text;
 </script>
+
+
+//while loops
+
+<p id="w-loop"></p>
+
+<script>
+var text = "";
+var i = 0;
+while (i < 20) {
+  text += "<br> Number " + i;
+  i++;
+}
+document.getElementById("w-loop").innerHTML = text;
+</script>
+
