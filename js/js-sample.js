@@ -52,6 +52,49 @@ langName1 + " " + langName2;
 
 
 
+//JS objects
+<p id="object"></p>
+
+<script>
+
+var person = {
+  firstName: "Rigved's",
+  lastName: "Pulickal",
+  age: 9,
+  eyeColor: "black"
+};
+
+document.getElementById("object").innerHTML =
+person.firstName + " eycolor is " + person.eyeColor + " ";
+</script>
+
+
+//false-booleans
+<button onclick="myFunction()">try the boolean</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = 0 > 0;
+}
+</script>
+
+
+
+
+//true-booleans
+<button onclick="myFunction()">try the boolean</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = 11 > 16;
+}
+</script>
+
+
 </body>
 </html>
 
