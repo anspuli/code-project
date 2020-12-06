@@ -1,0 +1,17 @@
+body {
+margin: 0;
+padding: 0;
+background-color: black;
+}
+
+.LOGO {
+color: white;
+text-align: center;
+border: white;
+}
+
+.btn-container {
+text-align: center;
+color: blue;
+
+}
