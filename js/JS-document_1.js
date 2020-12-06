@@ -26,3 +26,17 @@ while (i < 20) {
 document.getElementById("w-loop").innerHTML = text;
 </script>
 
+//scope
+<p id="id1"></p>
+
+<p id="id2"></p>
+
+<script>
+myFunction();
+
+function myFunction() {
+  var langName = "HTML";
+  document.getElementById("id1").innerHTML = typeof langName + " " + langName;
+}
+document.getElementById("id2").innerHTML = typeof langName;
+</script>
