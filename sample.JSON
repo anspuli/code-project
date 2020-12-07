@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var firstObj, x;
+firstObj = {"name":"HTML", "name1":"JS", "name2":null};
+x = firstObj.name;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
