@@ -8,7 +8,7 @@
 
 I have been working on this for a few weeks, but I always get a syntax error!>>
 
-``database error, error^..``
+``database error, ^error, error on varchar(255) NOT NULL``
 But dont undrstand why?
 
 ## Java-Game 
@@ -20,3 +20,4 @@ I planned to create a game using JAVA, but I just think I should finish the chat
 
 Here are some ``JS``  stuff I created ~ learned>>
 
+``github.com/RgTheGreat/code-project/js/``
