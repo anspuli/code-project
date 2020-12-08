@@ -1,2 +1,0 @@
-BACKUP DATABASE backdb
-TO DISK = ''
